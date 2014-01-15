@@ -1,0 +1,59 @@
+<!doctype html>
+<html ng-app="project">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/clndr.css">
+  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
+  
+  <script src="json2.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+  <script src= "moment-2.2.1.js"></script>
+
+  <script src="../src/clndr.js"></script>
+  <script src="site.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-route.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-resource.min.js"></script>
+  <script src="https://cdn.firebase.com/v0/firebase.js"></script>
+  <script src="https://cdn.firebase.com/libs/angularfire/0.5.0/angularfire.min.js"></script>
+  <script src="project.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="cal1">
+    </div>
+    <div class="cal2">
+
+      <script type="text/template" id="template-calendar">
+        <div class="clndr-controls">
+          <div class="clndr-previous-button">&lsaquo;</div>
+          <div class="month"><%= month %></div>
+          <div class="clndr-next-button">&rsaquo;</div>
+        </div>
+        <div class="clndr-grid">
+          <div class="days-of-the-week">
+            <% _.each(daysOfTheWeek, function(day) { %>
+              <div class="header-day"><%= day %></div>
+            <% }); %>
+            <div class="days">
+              <% _.each(days, function(day) { %>
+                <div class="<%= day.classes %>"><%= day.day %></div>
+              <% }); %>
+            </div>
+          </div>
+        </div>
+        <div class="clndr-today-button">Today</div>
+      </script>
+
+    </div>
+  </div>
+  <div>
+    <h2>JavaScript Projects</h2>
+    <div ng-view></div>
+  </div>
+
+</body>
+</html>

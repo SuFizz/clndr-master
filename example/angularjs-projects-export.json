@@ -1,0 +1,67 @@
+{
+  "-JCNIEIlTny_LXQN5c9Q" : {
+    "description" : "Models for your apps.",
+    "name" : "Backbone",
+    "site" : "http://documentcloud.github.com/backbone/"
+  },
+  "-JCNIEJ_nku-J3YdFcKx" : {
+    "description" : "Innovative web-apps.",
+    "name" : "SproutCore",
+    "site" : "http://sproutcore.com/"
+  },
+  "-JCNIPLKq16vKw4k--FV" : {
+    "description" : "AngularJS",
+    "name" : "Sample",
+    "site" : "http://g"
+  },
+  "-JCNIELpcxDQViX-h9uI" : {
+    "description" : "JS in Java.",
+    "name" : "GWT",
+    "site" : "https://developers.google.com/web-toolkit/"
+  },
+  "-JCNIEIlTny_LXQN5c9P" : {
+    "description" : "HTML enhanced for web apps!",
+    "name" : "AngularJS",
+    "site" : "http://angularjs.org"
+  },
+  "-JCNIEKRZLqrhdU6qEc4" : {
+    "description" : "Objective-J.",
+    "name" : "Cappucino",
+    "site" : "http://cappuccino.org/"
+  },
+  "-JCNIELDCHsg3aNldorx" : {
+    "description" : "MVVM pattern.",
+    "name" : "Knockout",
+    "site" : "http://knockoutjs.com/"
+  },
+  "-JCNIEL_2GBMg9QUc3ed" : {
+    "description" : "Ambitious web apps.",
+    "name" : "Ember",
+    "site" : "http://emberjs.com/"
+  },
+  "-JCNIIf1JiuSxZ0LXzU5" : {
+    "description" : "u Cebie",
+    "name" : "No czesc",
+    "site" : "https://co.tam"
+  },
+  "-JCNIEKoDPQMKp34_ZZU" : {
+    "description" : "Awesome MVC Apps.",
+    "name" : "Spine",
+    "site" : "http://spinejs.com/"
+  },
+  "-JCNIEIMKTnYjMqglync" : {
+    "description" : "Write less, do more.",
+    "name" : "jQuery",
+    "site" : "http://jquery.com/"
+  },
+  "-JCNIEMdHyPtxAiB8Dz9" : {
+    "description" : "Quick and beautiful.",
+    "name" : "Batman",
+    "site" : "http://batmanjs.org/"
+  },
+  "-JCNIEJZARg9Wdufc3Rz" : {
+    "description" : "Small with class.",
+    "name" : "Sammy",
+    "site" : "http://sammyjs.org/"
+  }
+}
